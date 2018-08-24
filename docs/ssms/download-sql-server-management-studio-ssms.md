@@ -164,7 +164,7 @@ If your SSMS installation is having problems, and a standard uninstall and reins
 
 4.	Reinstall Visual Studio 2015 IsoShell **from an elevated cmd prompt**:  
 
-    ```PUSHD "C:\ProgramData\Package Cache\FE948F0DAB52EB8CB5A740A77D8934B9E1A8E301\redist"```  
+    ```POPD "C:\ProgramData\Package Cache\FE948F0DAB52EB8CB5A740A77D8934B9E1A8E301\redist"```  
  
     ```vs_isoshell.exe /PromptRestart```
 
